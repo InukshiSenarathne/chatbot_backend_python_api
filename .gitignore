@@ -1,0 +1,45 @@
+# Python-specific ignore patterns
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__init__.py
+
+# Temporary files
+.DS_Store
+.idea/
+.vscode/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Virtual environments (e.g., for Python venv or Conda)
+venv/
+env/
+.venv/
+.env/
+
+# User-specific or system-specific files
+.vscode/
+.vscode/
+.pycharm/
+.pytest_cache/
+
+# Models
+./app/trained_models/face/
+./app/trained_models/text/
+./app/trained_models/voice/
+/app/trained_models/voice/voice.h5
+/app/trained_models/face/face.h5
+/app/trained_models/face/face_v2.h5
+/app/trained_models/text/config.json
+/app/trained_models/text/pytorch_model.bin
+/app/trained_models/text/config.json
+/app/trained_models/text/pytorch_model.bin
+/app/trained_models/text/special_tokens_map.json
+/app/trained_models/text/tokenizer.json
+/app/trained_models/text/tokenizer_config.json
+/app/trained_models/text/training_args.bin
+/app/trained_models/text/vocab.txt
+

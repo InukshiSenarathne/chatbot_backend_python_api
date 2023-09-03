@@ -1,0 +1,17 @@
+pip install flask tensorflow
+pip install Flask
+tensorflow-intel==2.13.0
+flask==2.3.3
+pip install pandas numpy librosa matplotlib pydub tensorflow scikit-learn seaborn moviepy pydub
+
+## additional
+## install ffmeg
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install ffmpeg
+ffmpeg -version
+
+pip install opencv-python
+pip install keras
+pip install matplotlib
+pip install numpy
+
